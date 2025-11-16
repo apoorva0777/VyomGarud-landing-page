@@ -36,7 +36,8 @@ git clone https://github.com/apoorva0777/VyomGarud-landing-page.git
 cd VyomGarud-landing-page
 ```
 
-##Project Structure
+---
+## Project Structure
 
 VyomGarud-landing-page/
 ├── public/
@@ -59,37 +60,24 @@ VyomGarud-landing-page/
 ├── postcss.config.js
 ├── vite.config.mjs
 └── README.md
-
-##🎨 Design Guidelines
-Colors
+---
+## 🎨 Design Guidelines
+# Colors
 
 Charcoal #0f1214
-
 White #ffffff
-
 Orange #ff7b00
-
-Fonts
-
+# Fonts
 Inter — body text
-
 Poppins — headings
-
-Aesthetic
-
+# Aesthetic
 Dark, clean, modern, slightly futuristic with a subtle military touch.
-
-Animations
-
+# Animations
 Subtle Framer Motion transitions:
-
 Fade-in
-
 Slide-up
-
 Hover effects
 
-Smooth hero section reveal
 
 
 
