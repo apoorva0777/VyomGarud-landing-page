@@ -38,7 +38,7 @@ cd VyomGarud-landing-page
 
 ---
 ## Project Structure
-
+```
 VyomGarud-landing-page/
 ├── public/
 │   └── vite.svg
@@ -60,6 +60,7 @@ VyomGarud-landing-page/
 ├── postcss.config.js
 ├── vite.config.mjs
 └── README.md
+```
 ---
 ## 🎨 Design Guidelines
 # Colors
