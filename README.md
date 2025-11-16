@@ -34,6 +34,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/apoorva0777/VyomGarud-landing-page.git
 cd VyomGarud-landing-page
+npm install
 ```
 
 ---
