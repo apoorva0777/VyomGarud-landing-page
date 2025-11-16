@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base page styling */
+:root {
+  --bg-1: #070808;
+  --bg-2: #0f1214;
+}
+html,body,#root { height: 100%; }
+body {
+  @apply bg-charcoal text-white antialiased;
+  background: linear-gradient(180deg,var(--bg-1) 0%, var(--bg-2) 60%);
+  font-family: Inter, Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* container used in components */
+.container-xl { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 1.25rem; padding-right: 1.25rem; }
+
+/* panel / card look */
+.card-panel {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 10px;
+}
+
+/* small helper */
+.text-muted { color: rgba(255,255,255,0.65); }
