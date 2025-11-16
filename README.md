@@ -1,16 +1,95 @@
-# React + Vite
+# VyomGarud 🚁  
+A modern, responsive landing page for **VyomGarud**, showcasing advanced UAV (Unmanned Aerial Vehicle) systems with a dark, military-futuristic design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🔥 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dark Theme** — charcoal + white with signature orange (#ff7b00)  
+- **Responsive Design** — fully optimized for mobile, tablet, and desktop  
+- **Smooth Animations** — powered by *Framer Motion*  
+- **Modern Stack** — React + Vite + Tailwind CSS  
+- **Fast Performance** — Vite ensures ultra-fast dev & production builds  
+- **Clean UI** — inspired by precision engineering & defense-grade design  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Version |
+|-----------|---------|
+| **React** | 18.x |
+| **Vite** | 4.x |
+| **Tailwind CSS** | 3.x |
+| **Framer Motion** | 10.x |
+| **Fonts** | Inter, Poppins |
+| **Design Style** | Dark, futuristic, military aesthetic |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/apoorva0777/VyomGarud-landing-page.git
+cd VyomGarud-landing-page
+```
+
+##Project Structure
+
+VyomGarud-landing-page/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   ├── hero.jpg
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Capabilities.jsx
+│   │   ├── Highlights.jsx
+│   │   └── ContactFooter.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.mjs
+└── README.md
+
+##🎨 Design Guidelines
+Colors
+
+Charcoal #0f1214
+
+White #ffffff
+
+Orange #ff7b00
+
+Fonts
+
+Inter — body text
+
+Poppins — headings
+
+Aesthetic
+
+Dark, clean, modern, slightly futuristic with a subtle military touch.
+
+Animations
+
+Subtle Framer Motion transitions:
+
+Fade-in
+
+Slide-up
+
+Hover effects
+
+Smooth hero section reveal
+
+
+
